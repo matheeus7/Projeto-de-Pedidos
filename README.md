@@ -7,6 +7,13 @@ banco de dados).
 
 ---
 
+## Autores
+
+Juliano Matheus Amazonas De Souza<p>
+Luciano Hugo Caliri Figueiredo
+
+---
+
 ## Sumário
 
 1. [Estrutura do projeto](#1-estrutura-do-projeto)

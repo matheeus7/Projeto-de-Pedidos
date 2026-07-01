@@ -62,7 +62,7 @@ projeto/
 │
 ├── scripts/
 │   ├── create_tables.sql       # Banco do zero (inclui colunas PF/PJ)
-│   └── migrate_pf_pj.sql      # Migração para quem já tinha o banco anterior
+│  
 │
 ├── requirements.txt
 └── README.md
@@ -355,18 +355,7 @@ psql -U postgres -c "CREATE DATABASE loja_db;"
 psql -U postgres -d loja_db -f scripts/create_tables.sql
 ```
 
-### 7.4 Migrar banco existente (versão anterior)
-
-Se você já tinha o banco criado antes desta refatoração, execute a migração:
-
-```bash
-psql -U postgres -d loja_db -f scripts/migrate_pf_pj.sql
-```
-
-Após a migração, atualize manualmente os CPFs fictícios gerados para os
-valores reais de cada cliente (veja o lembrete no final do script).
-
-### 7.5 Configurar a conexão
+### 7.4 Configurar a conexão
 
 Edite `database/connection.py` ou defina as variáveis de ambiente:
 

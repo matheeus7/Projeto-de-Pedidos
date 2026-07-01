@@ -9,8 +9,8 @@ banco de dados).
 
 ## Autores
 
-Juliano Matheus Amazonas De Souza<p>
-Luciano Hugo Caliri Figueiredo
+**Juliano Matheus Amazonas De Souza** - **22402228**<p>
+**Luciano Hugo Caliri Figueiredo** - **22400622**
 
 ---
 
